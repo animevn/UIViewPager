@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">ViewPagerDemo</string>
+    <string name="app_name">ViewPager</string>
     <string name="description">stop error</string>
 
     <array name="imgList">

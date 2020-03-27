@@ -1,4 +1,4 @@
-package com.haanhgs.app.viewpagerdemo;
+package com.haanhgs.app.uiviewpager;
 
 import android.content.Context;
 import android.view.LayoutInflater;

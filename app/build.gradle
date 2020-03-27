@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.haanhgs.app.viewpagerdemo"
+        applicationId "com.haanhgs.app.uiviewpager"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -30,6 +30,10 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    //for viewmodel
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    annotationProcessor "androidx.lifecycle:lifecycle-extensions:2.2.0"
 
     //Butterknife
     implementation 'com.jakewharton:butterknife:10.2.0'
